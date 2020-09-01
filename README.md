@@ -1,3 +1,5 @@
+Instructions originally sourced [here](https://shapeshed.com/vim-packages/)
+
 # Adding a new plugin
 ```
 git submodule add <url> vim/pack/jjoplin/start/<plugin_name>
