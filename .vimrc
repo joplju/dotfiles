@@ -47,6 +47,10 @@ set number
 " Always show the status bar
 set laststatus=2
 
+" Enable folding and leave all but the deepest open by default
+set foldenable
+set foldlevelstart=10
+
 "----------------------------
 " Search
 "----------------------------
@@ -64,6 +68,9 @@ set incsearch
 " Show matching braces, jump to them with %
 set showmatch
 
+" Colorscheme
+colorscheme jellybeans
+
 "----------------------------
 " Tab behavior
 "----------------------------
@@ -73,3 +80,17 @@ set expandtab
 set smarttab
 set shiftwidth=4
 set tabstop=4
+
+"----------------------------
+" Key remappings
+"----------------------------
+
+" Use "Y" behave like D, C, etc. to Yank to EOL
+map Y y$
+
+" Use <space> to open and close the current fold
+nnoremap <space> za
+
+"----------------------------
+" Custom filetypes
+"----------------------------

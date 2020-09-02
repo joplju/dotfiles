@@ -1,3 +1,12 @@
 [submodule "vim/pack/jjoplin/start/vim-fugitive"]
 	path = vim/pack/jjoplin/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/pack/jjoplin/opt/onedark.vim"]
+	path = vim/pack/jjoplin/opt/onedark.vim
+	url = https://github.com/joshdick/onedark.vim.git
+[submodule "vim/pack/jjoplin/opt/base16-vim.git"]
+	path = vim/pack/jjoplin/opt/base16-vim.git
+	url = https://github.com/chriskempson/base16-vim.git
+[submodule "vim/pack/jjoplin/opt/jellybeans.vim"]
+	path = vim/pack/jjoplin/opt/jellybeans.vim
+	url = https://github.com/nanotech/jellybeans.vim.git
