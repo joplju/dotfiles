@@ -98,5 +98,16 @@ nnoremap <space> za
 "----------------------------
 " Plugin options
 "----------------------------
+
 let g:airline_theme='jellybeans'
 let g:airline__powerline_fonts=1
+
+"----------------------------
+" Closing options
+"----------------------------
+
+" Load the vim 8 packages here
+packloadall
+
+" Create all of their helptags
+silent! helptags ALL
