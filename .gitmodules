@@ -13,3 +13,6 @@
 [submodule "vim/pack/jjoplin/start/vim-airline"]
 	path = vim/pack/jjoplin/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim/pack/jjoplin/start/vim-airline-themes"]
+	path = vim/pack/jjoplin/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
