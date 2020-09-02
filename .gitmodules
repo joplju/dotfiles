@@ -16,3 +16,6 @@
 [submodule "vim/pack/jjoplin/start/vim-airline-themes"]
 	path = vim/pack/jjoplin/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "vim/pack/jjoplin/start/vim-yaml-folds"]
+	path = vim/pack/jjoplin/start/vim-yaml-folds
+	url = https://github.com/pedrohdz/vim-yaml-folds.git
