@@ -10,3 +10,6 @@
 [submodule "vim/pack/jjoplin/opt/jellybeans.vim"]
 	path = vim/pack/jjoplin/opt/jellybeans.vim
 	url = https://github.com/nanotech/jellybeans.vim.git
+[submodule "vim/pack/jjoplin/start/vim-airline"]
+	path = vim/pack/jjoplin/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
