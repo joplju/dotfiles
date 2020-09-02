@@ -94,3 +94,9 @@ nnoremap <space> za
 "----------------------------
 " Custom filetypes
 "----------------------------
+
+"----------------------------
+" Plugin options
+"----------------------------
+let g:airline_theme='jellybeans'
+let g:airline__powerline_fonts=1
