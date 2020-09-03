@@ -22,3 +22,6 @@
 [submodule "vim/pack/jjoplin/start/ale"]
 	path = vim/pack/jjoplin/start/ale
 	url = https://github.com/dense-analysis/ale.git
+[submodule "bash/bash-git-prompt"]
+	path = bash/bash-git-prompt
+	url = https://github.com/magicmonty/bash-git-prompt.git
