@@ -44,9 +44,6 @@ set lazyredraw
 " Show line numbers
 set number
 
-" Also show line numbers relative to current location
-set relativenumber
-
 " Always show the status bar
 set laststatus=2
 
