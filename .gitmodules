@@ -25,3 +25,6 @@
 [submodule "bash/bash-git-prompt"]
 	path = bash/bash-git-prompt
 	url = https://github.com/magicmonty/bash-git-prompt.git
+[submodule "vim/pack/jjoplin/start/vim-terraform"]
+	path = vim/pack/jjoplin/start/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
