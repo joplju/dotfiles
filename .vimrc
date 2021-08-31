@@ -94,6 +94,8 @@ nnoremap <space> za
 "----------------------------
 " Custom filetypes
 "----------------------------
+" Explictly set Vagrantfiles to Ruby
+au BufRead,BufNewFile Vagrantfile set filetype=ruby
 
 "----------------------------
 " Plugin options
