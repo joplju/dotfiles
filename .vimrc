@@ -50,7 +50,7 @@ set laststatus=2
 " Enable folding and leave all but the deepest open by default
 set foldenable
 set foldmethod=indent
-set foldcolumn=1
+set foldcolumn=2
 set foldlevelstart=10
 
 "----------------------------
