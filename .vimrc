@@ -70,6 +70,9 @@ set incsearch
 " Show matching braces, jump to them with %
 set showmatch
 
+" When searching, show this many lines above/below the result
+set scrolloff=8
+
 " Colorscheme
 colorscheme jellybeans
 
