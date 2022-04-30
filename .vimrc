@@ -10,7 +10,7 @@ set encoding=utf8
 
 " Enable syntax highlighting
 syntax enable
-if $COLORTERM == 'gnome-terminal'
+if $COLORTERM == 'gnome-terminal' || $COLORTERM == 'truecolor'
     set t_Co=256
 endif
 
