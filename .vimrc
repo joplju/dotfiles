@@ -101,6 +101,8 @@ nnoremap <space> za
 "----------------------------
 " Explictly set Vagrantfiles to Ruby
 au BufRead,BufNewFile Vagrantfile set filetype=ruby
+" HTML files - tab stops and width of 2 characters
+autocmd Filetype html setlocal ts=2 sw=2 expandtab
 
 "----------------------------
 " Plugin options
