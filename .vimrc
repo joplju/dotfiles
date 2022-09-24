@@ -103,6 +103,8 @@ nnoremap <space> za
 au BufRead,BufNewFile Vagrantfile set filetype=ruby
 " HTML files - tab stops and width of 2 characters
 autocmd Filetype html setlocal ts=2 sw=2 expandtab
+" Javascript files - tab stops and width of 2 characters
+autocmd Filetype js setlocal ts=2 sw=2 expandtab
 
 "----------------------------
 " Plugin options
