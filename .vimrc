@@ -83,8 +83,8 @@ colorscheme jellybeans
 " Default tabbing behavior
 set expandtab
 set smarttab
-set shiftwidth=4
-set tabstop=4
+set shiftwidth=2
+set tabstop=2
 
 "----------------------------
 " Key remappings
@@ -101,11 +101,8 @@ nnoremap <space> za
 "----------------------------
 " Explictly set Vagrantfiles to Ruby
 au BufRead,BufNewFile Vagrantfile set filetype=ruby
-" HTML files - tab stops and width of 2 characters
-autocmd Filetype html setlocal ts=2 sw=2 expandtab
-autocmd Filetype htmldjango setlocal ts=2 sw=2 expandtab
-" Javascript files - tab stops and width of 2 characters
-autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
+" Python files - 4 spaces for depth
+autocmd Filetype python setlocal ts=4 sw=4 expandtab
 
 "----------------------------
 " Plugin options
