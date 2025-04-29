@@ -28,3 +28,6 @@
 [submodule "vim/pack/jjoplin/start/vim-terraform"]
 	path = vim/pack/jjoplin/start/vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm

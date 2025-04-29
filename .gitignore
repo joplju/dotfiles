@@ -3,3 +3,7 @@
 *.swo
 # Other vim files
 .netrwhist
+# Ignore tmux plugins - tpm is a submodule, so we won't ignore it
+tmux/plugins/tmux-sensible
+tmux/plugins/tmux
+tmux/plugins/vim-tmux-navigator
